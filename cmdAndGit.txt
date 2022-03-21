@@ -16,3 +16,19 @@ git commit -m "first commit" - добавить коммит с названием First commit (где -m 
 .gitignore - создать файл в репозитории без названи€ с таким расширением, добавить в нем текстом наименовани€ файлов,
              например index.html, которые git будет игнорировать. “ак же можно игнорировать папки /folder (где
              folder - название папки
+git branch - проверка веток в которой мы находимс€
+git branch newBranch - создание новой ветки newBranch (где newBranch название)
+git branch -D newBranch - удаление ветки newBranch
+git checkout newBranch - переключитьс€ на новую ветку с master
+git checkout -B newBranch - создать новую ветку с именем newBranch и, сразу, переключитьс€ на новую ветку
+git merge newBranch - объедин€ет ветку master и newBranch, выполн€етс€ из ветки master
+git config --global user.name - просмотреть им€ создател€ по умолчанию
+git config --global user.name "Aleksey" - изменить им€ создател€
+git config --global user.email - аналогично показать почту и еЄ можно изменить аналогично имени
+git remote add origin https://github.com/Snaper12/gitHub.git - прив€зать репоситорий к серверу
+git push -u origin main - добавить в репозиторий на gitHub ветку
+git push - если уже файлы передавались на сервер, и создались новые их можно так добавить
+git clone https://github.com/Snaper12/gitHub.git - клонировать репозиторий по ссылке в папку в которой работаем.
+                                                   ѕри этом функци€ push будет мен€ть файлы на сервере
+
+git pull - заменить наши файлы файлами с сервера.
